@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_6c380938a236473bb58169821b596179 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_6c380938a236473bb58169821b596179" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_6c380938a236473bb58169821b596179 = L.map(
+                                  'map_6c380938a236473bb58169821b596179',
+                                  {center: [0,0],
+                                  zoom: 1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_df62896e82a64c6886bff4c77f3efd75 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_6c380938a236473bb58169821b596179);
+        
+    
+            var feature_group_f77576680f144c888fd5273d1ac279c9 = L.featureGroup(
+                ).addTo(map_6c380938a236473bb58169821b596179);
+        
+    
+
+            var marker_f945a47c7fae456e995d039e9cb196e7 = L.marker(
+                [47.6062095,-122.3320708],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_f77576680f144c888fd5273d1ac279c9);
+            
+    
+
+                var custom_icon_35610d39436749d8b5b109bd4b995995 = L.icon({
+                    iconUrl: 'http://pbs.twimg.com/profile_images/929933611754708992/ioSgz49P_normal.jpg',
+                    iconSize: [25,25],
+                    
+
+                    
+                    
+                    
+
+                    
+                    });
+                marker_f945a47c7fae456e995d039e9cb196e7.setIcon(custom_icon_35610d39436749d8b5b109bd4b995995);
+            
+    
+            var popup_72dd5647bd104664a3917bbbf691a0ff = L.popup({maxWidth: '300'});
+
+            
+                var html_26b71f35163f4ebb85d3f156fccceb0f = $('<div id="html_26b71f35163f4ebb85d3f156fccceb0f" style="width: 100.0%; height: 100.0%;">Bill Gates</div>')[0];
+                popup_72dd5647bd104664a3917bbbf691a0ff.setContent(html_26b71f35163f4ebb85d3f156fccceb0f);
+            
+
+            marker_f945a47c7fae456e995d039e9cb196e7.bindPopup(popup_72dd5647bd104664a3917bbbf691a0ff);
+
+            
+        
+    
+
+            var marker_cdbc2daa6ee1411384dca45b41e3b3b7 = L.marker(
+                [48.379433,31.1655799],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_f77576680f144c888fd5273d1ac279c9);
+            
+    
+
+                var custom_icon_96fff7b78b5e4991a437219c793077be = L.icon({
+                    iconUrl: 'http://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png',
+                    iconSize: [25,25],
+                    
+
+                    
+                    
+                    
+
+                    
+                    });
+                marker_cdbc2daa6ee1411384dca45b41e3b3b7.setIcon(custom_icon_96fff7b78b5e4991a437219c793077be);
+            
+    
+            var popup_0ed9a5e8855048de8d557ab963ab1dc9 = L.popup({maxWidth: '300'});
+
+            
+                var html_c948f445e6ed4abf935c88062ca39813 = $('<div id="html_c948f445e6ed4abf935c88062ca39813" style="width: 100.0%; height: 100.0%;">Mykytyn Oleh</div>')[0];
+                popup_0ed9a5e8855048de8d557ab963ab1dc9.setContent(html_c948f445e6ed4abf935c88062ca39813);
+            
+
+            marker_cdbc2daa6ee1411384dca45b41e3b3b7.bindPopup(popup_0ed9a5e8855048de8d557ab963ab1dc9);
+
+            
+        
+    
+
+            var marker_dd8e6c5fd8cd4331b6bb36bcba313aaf = L.marker(
+                [40.7127753,-74.0059728],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_f77576680f144c888fd5273d1ac279c9);
+            
+    
+
+                var custom_icon_443612011a6344b88c36030b17cdac69 = L.icon({
+                    iconUrl: 'http://pbs.twimg.com/profile_images/1866445064/and2disk_normal.jpg',
+                    iconSize: [25,25],
+                    
+
+                    
+                    
+                    
+
+                    
+                    });
+                marker_dd8e6c5fd8cd4331b6bb36bcba313aaf.setIcon(custom_icon_443612011a6344b88c36030b17cdac69);
+            
+    
+            var popup_519776d8961649a89d2daa6dfbbcce42 = L.popup({maxWidth: '300'});
+
+            
+                var html_19aeda0e80bd42eab43f4576c15afb3e = $('<div id="html_19aeda0e80bd42eab43f4576c15afb3e" style="width: 100.0%; height: 100.0%;">World and Science</div>')[0];
+                popup_519776d8961649a89d2daa6dfbbcce42.setContent(html_19aeda0e80bd42eab43f4576c15afb3e);
+            
+
+            marker_dd8e6c5fd8cd4331b6bb36bcba313aaf.bindPopup(popup_519776d8961649a89d2daa6dfbbcce42);
+
+            
+        
+    
+            var layer_control_1a9c63e0ca29442d9d7178db5c971186 = {
+                base_layers : { "openstreetmap" : tile_layer_df62896e82a64c6886bff4c77f3efd75, },
+                overlays : { "Friends" : feature_group_f77576680f144c888fd5273d1ac279c9, }
+                };
+            L.control.layers(
+                layer_control_1a9c63e0ca29442d9d7178db5c971186.base_layers,
+                layer_control_1a9c63e0ca29442d9d7178db5c971186.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_6c380938a236473bb58169821b596179);
+        
+</script>
